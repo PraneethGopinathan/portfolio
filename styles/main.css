@@ -123,6 +123,20 @@ li{
     font-size: 0.9em;
 }
 
+#wrapper--techstack__items a{
+    font-weight: 300;
+    color: var(--secondaryTextColor);
+    font-size: 0.9em;
+    transition: 0.3s;
+}
+
+#wrapper--techstack__items a:hover{
+    font-weight: 100;
+    color: var(--mainLinkColor);
+    font-size: 0.9em;
+}
+
+
 .card--techstack{
     border: 1px solid var(--mainBorderColor);
     border-radius: 5px;
@@ -140,4 +154,47 @@ li{
 .line-break{
     background-color: var(--mainBorderColor);
     height: 1px;
+}
+
+.card--project{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    border-left: 1px solid var(--mainBorderColor);
+}
+
+.card--project a{
+    color: var(--mainTextColor);
+
+    transition: 0.3s;
+}
+
+.card--project a:hover{
+    color: rgb(30, 190,214);
+
+}
+
+
+@media(max-width:600px){
+
+    .section--page{
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+
+    #wrapper--hero{
+        gap: 1em;
+        flex-direction: column;
+    }
+
+    #profile-pic{
+        width: 200px;
+        height: 200px;
+    }
+
+
+    .card--work-history{
+        border-left: none;
+        padding-left: 0;
+    }
 }
