@@ -6,11 +6,11 @@ View live demo here using github pages: [Live Demo](https://praneethgopinathan.g
 
 ## Dark Mode Preview
 
-<img src="assets\images\preview-1.PNG">
+<img src="assets/images/preview-1.PNG">
 
 ## Light Mode Preview
 
-<img src="assets\images\preview-2.PNG">
+<img src="assets/images/preview-2.PNG">
 
 ## Switching between color themes
 
